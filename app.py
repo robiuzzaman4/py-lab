@@ -1,11 +1,7 @@
-# list 
-fruits = ["apple", "banana", "cherry"]
+# list
 
-capitalized_list = []
+hia_favourites = ["cake", "biscuit", "chocolate", "froto", "weafer"]
 
-for index in range(len(fruits)):
-    fruit = fruits[index]
-    capitalized_list.append(fruit.capitalize())
-    # print(index, "-", fruit.capitalize())
+print("length:", len(hia_favourites))
 
-print(capitalized_list)
+print("accessing:", hia_favourites[-1])
