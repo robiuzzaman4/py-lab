@@ -2,6 +2,12 @@
 
 hia_favourites = ["cake", "biscuit", "chocolate", "froto", "weafer"]
 
-print("length:", len(hia_favourites))
+hia_favourites.append("tea")
 
-print("accessing:", hia_favourites[-1])
+hia_favourites.sort()
+
+# hia_favourites.reverse()
+
+hia_favourites.remove("chocolate")
+
+print("list:", hia_favourites)
