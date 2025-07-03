@@ -2,7 +2,7 @@ contact_list = []
 
 
 def display_menu():
-    print("\n--- Contact Book Menu ---")
+    print("\n--- Contact List Menu ---")
     print("1. Add New Contact")
     print("2. View All Contacts")
     print("3. Search Contact")
@@ -18,6 +18,7 @@ def add_contact():
     number = input()
     print("Enter contact email:")
     email = input()
+
     contact_details = {
         "name": name,
         "number": number,
@@ -25,8 +26,11 @@ def add_contact():
     }
     contact_list.append(contact_details)
 
+    print("✅ New contact added to the contact list")
+
 
 def view_contacts():
+    print("✅ Viewed contact list")
     print(contact_list)
 
 
