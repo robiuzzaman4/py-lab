@@ -12,7 +12,18 @@ def display_menu():
 
 
 def add_contact():
-    contact_list.append("ruhan")
+    print("Enter contact name:")
+    name = input()
+    print("Enter contact number:")
+    number = input()
+    print("Enter contact email:")
+    email = input()
+    contact_details = {
+        "name": name,
+        "number": number,
+        "email": email
+    }
+    contact_list.append(contact_details)
 
 
 def view_contacts():
