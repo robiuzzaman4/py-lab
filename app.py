@@ -36,6 +36,21 @@ def add_contact():
     print("✅ New contact added to the contact list")
 
 
+def delete_contact(contact_name):
+    contact_name = contact_name.strip().lower()
+    found = False
+
+    for contact in contact_list:
+        if contact['name'].lower() == contact_name:
+            contact_list.remove(contact)
+            print(f"✅ Contact '{contact_name}' deleted successfully.")
+            found = True
+            break
+
+    if not found:
+        print(f"❌ Contact '{contact_name}' not found.")
+
+
 def view_contacts():
     print("✅ Viewed contact list")
     print(contact_list)
