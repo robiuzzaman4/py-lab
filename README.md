@@ -5,7 +5,8 @@
 - **variables**
 - **loops**
 - **conditions**
-- **list**
+- **lists**
+- **tuples**
 
 ## **Practice projects:**
 
