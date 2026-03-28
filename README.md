@@ -2,12 +2,13 @@
 
 ### **Core concepts covered:**
 
-- **variables**
-- **loops**
-- **conditions**
-- **lists**
-- **tuples**
+- **variable**
+- **loop**
+- **condition**
+- **list**
+- **tuple**
+- **dict**
 
 ## **Practice projects:**
 
-- **Contact list book (In Progress)**
+- **Contact list book**
