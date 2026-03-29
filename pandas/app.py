@@ -10,7 +10,7 @@ df = df.drop(columns=["No"])
 # df = df.dropna(subset=["Type2"])
 
 # 2. handle missing data (replace any pokemon's Type2 with 'None' if Type2 missing)
-# df = df.fillna({"Type2": "None"})
+df = df.fillna({"Type2": "None"})
 
 # 3. Fix inconsistent values
 df["Type1"] = df["Type1"].replace(
