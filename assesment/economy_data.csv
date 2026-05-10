@@ -1,0 +1,9 @@
+Country,Region,Inflation_Rate
+USA,Americas,2.1
+Germany,Europe,1.8
+Bangladesh,Asia,9.5
+Narnia,Unknown,Missing
+Japan,Asia,0.2
+Brazil,Americas,4.7
+Invalid_Data,None,ERROR
+India,Asia,5.1
