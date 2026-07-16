@@ -22,5 +22,12 @@ years = [
 
 clean_years = [y.split(' ')[0] for y in years]
 
+# convert data into number
+agri_values = agri_data[years].values.flatten().astype(float)
+ind_values = ind_data[years].values.flatten().astype(float)
+
+# create graph
+
+
 print(agri_data)
 print(ind_data)
